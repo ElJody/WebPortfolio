@@ -1,0 +1,173 @@
+body, html{
+    height: 100px;
+    margin: 60px;
+}
+body{
+    background-color:black;
+}
+
+nav li {
+    display:inline-block;
+    text-align:auto;
+    padding:10px;
+    height:100%;
+    margin: 5px;
+    }
+
+nav ul{
+    background-color: black;
+    margin:25%;
+    list-style:none;
+    width:100%;
+    padding: 5%;
+}
+
+nav{ 
+    display:inline-block;
+    color:#B0C4DE;
+    position: relative;
+    top: 15%;
+    left: 10%;
+    transform:translate(-75%,-25%)
+    
+}
+
+nav a{
+    color:blanchedalmond;
+    text-decoration: none;
+    font: 2em sans-serif;
+}
+
+nav a:hover{
+    color: red;
+}
+
+/*.hero-image{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/fireDiEdit.png);
+    height: 1000%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:contain;
+    position:relative;
+}*/
+
+.hero-text{
+    color: #4682B4;
+    text-align: center;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform:translate(-50%,-50%)
+}
+
+#main{
+    width:75%;
+    float:left;
+    height:0%;
+    padding-left:20px;
+    padding-top:10px;
+    
+}
+
+#side{
+    width:20%;
+    float:right;
+    height:100%;
+    padding:20px;
+}
+
+.side-articles{
+/*    background-image: url(../images/Teo.jpeg);*/
+        border-radius:10%;
+        text-align:center;
+        padding-inline:center;
+        border:5px solid lightgray;
+}
+
+#profile-image{
+    padding:0%;
+    /*    background-position: cover;
+    background-size: cover;
+    position: relative;*/
+    margin-right:10px;
+    margin-bottom:10px;
+    border-radius:10px;
+}
+.side-articles{
+    text-align:center;
+}
+
+.side-articles ul{
+    list-style-type:none;
+    padding-left:0px;
+}
+
+.profile-details h2{
+    display:inline;
+    text-align: center;
+}
+ 
+.profile-details{
+    margin-right:30px;
+    text-align:center;
+}
+
+.side-articles, .main-articles{
+    padding:10px;
+    margin-bottom:10px;
+    border-radius:10px;
+
+}
+
+.side-articles{
+    background-color: darkgray;
+    text-align: center;
+}
+
+
+.main-articles{
+    background-color: darkgray;
+    border:5px solid lightgray;
+}
+
+
+form{
+    margin-top:20px;
+}
+textarea, input{
+    background-color: lightgray;
+    border-radius:5px;
+    padding:5px;
+    margin:5px;
+}
+
+.side-articles h1{
+    margin-bottom: 20px;
+}
+
+footer{
+    width:100%;
+    background-color:black;
+    height: 5vh;
+    margin-top:0px;
+}
+footer div{
+    text-align: center;
+    color: white;
+}
+
+main{
+    overflow: auto;
+}
+
+
+footer hr{
+    margin-top: 0px;
+    height: 12px;
+    border: opx;
+    box-shadow: inset 0 12px 12px -12px white;
+}
+
+
+
+
